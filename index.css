@@ -1,0 +1,53 @@
+.firstHeader {
+    font-size: larger;
+    font-weight: 800;
+    color: blue;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: #E7ECFF;
+    width: '100%';
+    justify-content: space-between;
+    gap: 6
+
+}
+.firstText {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.firstText h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.firstText p{
+    font-size: 18px;
+    color: #505F98;
+    font-family: 'Times New Roman', Times, serif;
+}
+.imgDiv{
+    width: 50%;
+    display: flex;
+   align-items: flex-end;
+}
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.firstBtn {
+    background-color: #141719;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+
+.secBtn {
+    color: #141719;
+    background-color: white;
+    border: 1px solid #141719;
+    width: 150px;
+    height: 30px;
+}
